@@ -1,0 +1,90 @@
+section.imageContact img{
+    width: 500px;
+    height: 93vh;
+    background-size: cover;
+}
+
+section.divisionContant{
+    display: flex;
+
+}
+
+form{
+    width: 100%;
+    height: 93vh;
+    background-color:#373636;
+    padding: 3%;
+    text-align: center;
+    border-radius: 0px 5px 5px 0px;
+}
+
+section.meuContato{
+    position: absolute;
+    top: 107%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+}
+
+section.formHeader img{
+    width: 80px;
+}
+
+section.formHeader p{
+    color: #cccccc;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+section.formHeader a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.formHeader span{
+    background-image: linear-gradient(to right, #db5454,#d23866);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-size: 3.5rem;
+    padding-left: 10px; 
+    font-weight: bold;
+}
+
+section.camposFormulario{
+    text-align: left;
+}
+
+section.camposFormulario input,label,select,textarea{
+    color: #cccccc;
+    display: block;
+    width: 100%;
+    padding: 3px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+section.camposFormulario select,textarea{
+    width: 100%;
+    padding: 5px;
+    background-color: #171717;
+    border: 1px solid #ffffff30;
+    height: 6vh;
+    margin-bottom: 10px;   
+    padding-left: 10px;
+}
+
+section.camposFormulario textarea{
+    height: 22vh;
+}
+
+section.camposFormulario input[type="submit"]{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+section.camposFormulario input[type="submit"]:hover{
+    background: linear-gradient(to left, #db5454,#dd1515);
+}
